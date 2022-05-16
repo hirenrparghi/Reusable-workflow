@@ -11,6 +11,10 @@ on:
         default: 'v0.0.0'
         required: true
         type: string
+      secrets:
+      credentials:
+        description: 'A secret containing credentials'
+        required: false
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallell
 jobs:
